@@ -1,6 +1,6 @@
 <script>
   let selectedCategory = '';
-  const categories = ['Clothing', 'Shoes', 'Books'];
+  const categories = ['Clothing', 'Electronics', 'Accessories', 'Footwear'];
 
   let minPrice = '';
   let maxPrice = '';
