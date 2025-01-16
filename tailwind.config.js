@@ -9,21 +9,21 @@ export default {
 		extend: {
 			fontFamily: {
 				'dela-gothic': ['Dela Gothic One', 'sans-serif'],
-				'inter': ['Inter', 'sans-serif'] 
+				inter: ['Inter', 'sans-serif']
 			},
 			colors: {
-				orange: '#ff5003'
+				orange: '#ff5003',
+				bgColor: '#fffafa'
 			},
 			fontWeight: {
 				'lighter-bold': '500'
 			},
-			
+
 			screens: {
 				sm: '480px', // Small screens
 				md: '768px', // Medium screens
 				lg: '1024px', // Large screens
-				xl: '1280px', // Extra large screens
-				
+				xl: '1280px' // Extra large screens
 			}
 		}
 	},

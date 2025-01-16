@@ -112,6 +112,7 @@
 </script>
 
 <main>
+  <div class="bg-bgColor">
   <NavBar on:search={(e) => handleSearch(e.detail)} />
   <ProductFilter onFilter={handleFilter} />
 
@@ -140,6 +141,7 @@
 
   <!-- Footer -->
   <Footer />
+  </div>
 
 </main>
 
